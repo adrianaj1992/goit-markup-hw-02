@@ -1,3 +1,42 @@
-.button{
-  cursor: pointer;
+body{
+  background-color: #E5E5E5;
+  font-family: 'Raleway','Roboto';
+
+}
+.titulo {
+  font-size: 26px;
+  font-weight:700;
+  background-color: #2196F3;
+}
+
+.lista li{
+ list-style-type: none;
+ 
+}
+a {
+  text-decoration: none;
+  color:#212121;
+}
+a:hover {
+ color: #2196F3;
+}
+.button:hover {
+  color: #2196F3;
+  
+}
+.button li{
+  list-style-type: none;
+}
+.texto-negrita{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color:#212121
+}
+.texto-clarito{
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#757575
 }
