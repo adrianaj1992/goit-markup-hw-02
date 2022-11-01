@@ -9,11 +9,12 @@ body{
   background-color: #2196F3;
 }
 
-.lista li{
+.ready li{
  list-style-type: none;
  
 }
 a {
+  list-style-type: none;
   text-decoration: none;
   color:#212121;
 }
@@ -27,16 +28,36 @@ a:hover {
 .button li{
   list-style-type: none;
 }
-.texto-negrita{
+.dark-letter{
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    color:#212121
+    color:#212121;
 }
-.texto-clarito{
+.clear-letter{
     font-style:normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color:#757575
+}
+h3{
+  color:#212121;
+  font-family:'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+} 
+p{
+color:#757575;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
