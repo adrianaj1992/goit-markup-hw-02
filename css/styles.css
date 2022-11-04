@@ -1,5 +1,5 @@
 body{
-  background-color: #E5E5E5;
+  background-color:#FFFFFF;
   font-family: 'Raleway','Roboto';
 
 }
@@ -14,6 +14,11 @@ body{
  
 }
 a {
+  font-family: 'Raleway';
+  font-style: normal;
+  width:0%;
+  margin:49px;
+  padding:32px;
   list-style-type: none;
   text-decoration: none;
   color:#212121;
@@ -60,4 +65,27 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
+}
+/*header opciones */
+nav ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0 -10 px;
+}
+nav li{
+  margin:0 10 px;
+}
+.push-right{
+  list-style-type: none;
+  margin-left: auto;
+}
+/*barra azul del la solicitud*/
+.imagen-blue {
+  width: 1600px;
+  height: 600px
+}
+/*a que nos dedicamos */
+.wededicate> ul {
+  display:flex;
+  list-style-type: none;
 }
